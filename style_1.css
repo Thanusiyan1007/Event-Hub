@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: #19222c;
+}
+
+.menubar-heading-title{
+    font-size: 25px;
+}
+
+.menubar-heading-title h3{
+    padding: 25px;
+    text-align: center;
+}
+
+.menubar-heading-title span{
+    color: blue;
+}
+
+.right-menu{
+    width: 320px;
+    height: 940px;
+    background-color: #2d3d4f;
+}
+
+.menubar-opt{
+    padding: 25px;
+    background-color: #19222c;
+    height: 80px;
+    border-radius: 25px;
+    margin: 18px 18px 18px 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menubar-opt:hover{
+    background-color: blue;
+}
+
+.setting-menu{
+    overflow: hidden;
+    display: none;
+}
+
+.setting-menu.setting-menu-height {
+    display: block;
+}
+
+.setting-menu-inner{
+    background-color: #4f93df;
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 10px;
+    border-radius: 25px;
+    overflow: hidden;
+    display: block;
+
+}
+
+.dropdownlist{
+    text-align: center;
+}
+
+.dropdownlist img{
+    border-radius:80%;
+    height: 60px;
+    width: 60px;
+}
+
+.walut , .setting,.signuot,.profile-small{
+    padding: 15px 0 15px 0;
+}
+
+
+/*start navbar*/
+.navbar {
+    height: 75px;
+    width:auto;
+    background-color: #2d3d4f;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: -925px;
+    padding: 0 20px 0 20px;
+    margin-right: 20px;
+}
+
+.navbar h5 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+
+.navbar .las {
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar h5 {
+    margin: 0;
+}
+
+.navbar-items img {
+    border-radius: 80%;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+
+
+
+
+
+/*end navbar*/
+
+
+/*Start Dashboard main content*/
+
+.total-count{
+    padding: 40px;
+    justify-content: space-between;
+    
+}
+
+.row-count{
+    background-color: #2d3d4f;
+    width: 420px;
+    height: 140px;
+    padding: 20px;
+    margin-left: 340px;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+.row-count1{
+    background-color: #2d3d4f;
+    width: 420px;
+    height: 140px;
+    padding: 20px;
+    margin-left: 875px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: -142px;
+}
+
+.row-count2{
+    background-color: #2d3d4f;
+    width: 420px;
+    height: 140px;
+    padding: 20px;
+    margin-left: 1410px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: -142px;
+}
+.row-count h5{
+    font-size: 30px;
+}
+
+.row-count1 h5{
+    font-size: 30px;
+}
+
+.row-count2 h5{
+    font-size: 30px;
+}
+
+.row-count p{
+    font-size: 35px;
+}
+
+.row-count1 p{
+    font-size: 35px;
+}
+
+.row-count2 p{
+    font-size: 35px;
+}
+
+.row-count:hover{
+    background-color:blue;
+    transform: scale(1.10);
+}
+
+.row-count1:hover{
+    background-color:blue;
+    
+    transform: scale(1.10);
+}
+.row-count2:hover{
+    background-color:blue;
+    transform: scale(1.10);
+}
+
+
+.todaytransation{
+    background-color: #2d3d4f;
+    margin-left: 380px;
+    padding: 20px;
+    border-radius: 25px;
+    height: auto;
+    width: 950px;
+    
+}
+
+.todaytransation h4{
+    font-size: 35px;
+}
+
+.table-details{
+    font-size: 20px;
+    border: none;
+    padding: 15px;
+}
+
+table{
+    font-size: 20px;
+}
+
+th{
+    padding-right: 50px;
+}
+tbody{
+    margin-left: 25px;
+}
+td{
+    padding: 35px 35px 35px 3px;
+    padding-left: -190px;
+    text-align: justify;
+}
+
+.ratting{
+    background-color: #2d3d4f;
+    margin-left: 1450px;
+    margin-top: -165px;
+    padding: 20px;
+    border-radius: 25px;
+    height: 570px;
+    width: 420px;
+    font-size: 20px;
+    border: none;
+    padding: 25px;
+}
+.ratting h4{
+    font-size: 35px;
+    padding: 10px 0 40px 10px;
+}
+.ratting td{
+     padding-right: 100px;
+     margin-left: 20px;
+     text-align: center;
+}
+
+.ratting th{
+    padding-right: 100px;
+    margin-left: 20px;
+}
+
+
+/*End Dashboard main content*/
+
+
+/***** Start galarymagement-contact  *****/
+
+
+.galarymenagment{
+    background-color: #2d3d4f;
+    width: 1540px;
+    height: 800px;
+    margin-top: 35px;
+    margin-left: 350px;
+    border-radius: 25px;
+    
+}
+
+.galarymenagment img{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 20%;
+    margin-top: -10px;
+}
+
+.galarymenagment img:hover{
+    transform: scale(1.15);
+}
+
+.galarymenagment button{
+    width: 150px;
+    height: 45px;
+    background-color: #19222c;
+    border-radius: 25px;
+    border: 45px;
+    margin-left: 1280px;
+    margin-top: 10px;
+}
+
+.galarymenagment button:hover{
+    transform: scale(1.05);
+    background-color: blue;
+}
+
+.galarymenagment table td{
+    padding: 25px;
+}
+
+
+/***** End galarymagement-contact  *****/
+
+
+/***** Start event-manage-Container *****/
+
+.event-manage-Container{
+    background-color: #2d3d4f;
+    align-items: center;
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 355px;
+    border-radius: 25px;
+}
+
+.event-manage-Container h3{
+    margin-left: 55px;
+    padding: 60px 0 60px 0;
+}
+
+.event-manage-Container table{
+    margin-left: 10px;
+}
+
+.event-manage-Container button{
+    width: 150px;
+    height: 45px;
+    background-color: #19222c;
+    border-radius: 25px;
+    border: 45px;
+    cursor: pointer;
+}
+
+
+.event-manage-Container button:hover{
+    transform: scale(1.05);
+    background-color: blue;
+}
+/***** End gevent-manage-Container  *****/
+
+
+
+
+/***** Start gDeaers-Customize-Container  *****/
+
+.Deaers-Customize-Container{
+    background-color: #2d3d4f;
+    align-items: center;
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 355px;
+    border-radius: 25px;
+}
+
+.Deaers-Customize-Container h3{
+    margin-left: 55px;
+    padding: 60px 0 60px 0;
+}
+
+.Deaers-Customize-Container .add-dealer button{
+    width: 150px;
+    height: 45px;
+    background-color: #19222c;
+    border-radius: 25px;
+    border: 45px;
+    cursor: pointer;
+    margin-left: 80%;
+    margin-top:-1050px;
+    
+} 
+
+.Deaers-Customize-Container .add-dealer button:hover{
+    transform: scale(1.05);
+    background-color: blue;
+}
+
+.Deaers-Customize-Container table{
+    margin-left: 71px;
+    
+}
+
+.Deaers-Customize-Container table td{
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+
+
+.Deaers-Customize-Container  button{
+    width: 150px;
+    height: 45px;
+    background-color: #19222c;
+    border-radius: 25px;
+    border: 45px;
+    cursor: pointer;
+    margin-bottom: -7px;
+}
+
+.Deaers-Customize-Container  button:hover{
+    transform: scale(1.05);
+    background-color: blue;
+}
+
+/***** End Deaers-Customize-Container  *****/
+
+
+
+/***** Start user-Customize-Container  *****/
+
+.user-Customize-Container{
+    background-color: #2d3d4f;
+    align-items: center;
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 355px;
+    border-radius: 25px;
+}
+
+.user-Customize-Container h3{
+    margin-left: 55px;
+    padding: 60px 0 60px 0;
+}
+
+.user-Customize-Container .add-dealer button{
+    width: 150px;
+    height: 45px;
+    background-color: #19222c;
+    border-radius: 25px;
+    border: 45px;
+    cursor: pointer;
+    margin-left: 80%;
+    margin-top:-1050px;
+    
+} 
+
+.user-Customize-Container .add-dealer button:hover{
+    transform: scale(1.05);
+    background-color: blue;
+}
+
+.user-Customize-Container table{
+   margin-left: 37px;
+}
+
+
+
+.user-Customize-Container  button{
+    width: 150px;
+    height: 45px;
+    background-color: #19222c;
+    border-radius: 25px;
+    border: 45px;
+    cursor: pointer;
+}
+
+.user-Customize-Container  button:hover{
+    transform: scale(1.05);
+    background-color: blue;
+}
+
+
+/***** user-Customize-Container  *****/
+
+
+
+/***** Strat Profile *****/
+
+
+.profileadmin{
+    background-color: #2d3d4f;
+    align-items: center;
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 355px;
+    border-radius: 25px;
+    
+}
+
+.dpprofile h3{
+    margin-left: 680px;
+    margin-top: -13%;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.dpprofile h4{
+    margin-left: 680px;
+    padding: 20px 0 20px 0;
+}
+
+.dpprofile img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    margin-left: 400px;
+}
+
+.usertable table{
+    margin-left: 350px;
+}
+
+.usertable table td {
+    font-size: 25px;
+}
+
+.usertable table td input{
+    width: 520px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    color: black;
+}
+
+.usertable table td input::placeholder{
+    font-size: 25px;
+}
+
+
+.usertable button{
+    width: 150px;
+    height: 45px;
+    background-color: #19222c;
+    border-radius: 25px;
+    border: 45px;
+    cursor: pointer;
+    margin-left: 900px;
+    margin-bottom: 20px;
+}
+
+.usertable button:hover{
+    transform: scale(1.05);
+    background-color: blue;
+}
+/***** End Profile *****/
+
+
+/***** Start Register *****/
+.usertable .btn{
+    width: 150px;
+    height: 45px;
+    background: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 900px;
+    margin-bottom: 20px;
+}
+
+.usertable .btn:hover{
+    transform: scale(1.05);
+    background-color: blue;
+}
+
+/***** end Register *****/
+
+.usertable h1{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.usertable .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+
+.usertable .input-box input{
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #ffff;
+    padding: 20px 45px 20px 20px;
+    font-size: 20px;
+    margin-left: 390px;
+}

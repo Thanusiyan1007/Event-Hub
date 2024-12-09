@@ -1,0 +1,191 @@
+/* Reset some default browser styles */
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+
+/* Set a background color and font family for the entire page */
+body {
+    background-color: #222;
+    font-family: Arial, sans-serif;
+    margin-left: 150px;
+}
+
+/* Center the container and set its width */
+.container {
+    color: #ffffff;
+    text-align: center;
+    max-width: 90%;
+    padding: 20px;
+    background-color: #222;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+.container h1{
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Style the profile section */
+
+.profile {
+    display: flex;
+    align-items: center;
+    
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    
+}
+
+.raat{
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+
+.profile-picture img {
+    margin-right: 20px;
+    padding: 1px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-details{
+    text-align: left;
+}
+
+.profile-details h2 {
+
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.profile-details p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.rating {
+  font-size: 30px;
+}
+
+.star {
+  cursor: pointer;
+  color: gray;
+}
+
+.star:hover {
+  color: gold;
+}
+
+.selected-rating {
+    
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Style the description section */
+.description {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+   
+}
+
+.description h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: #ffffff;
+
+}
+
+.description p {
+    margin-left: 100px;
+    text-align: left;
+    width: 85%;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+/* Style the price table */
+.price{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #333;
+}
+.price h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.price table {
+    border-bottom-left-radius: 10px;
+    margin-left: 500px;
+    width: 70%;
+    border-collapse: collapse;
+    padding-left:10px;
+    padding-right:10px;
+    width: 800px;
+}
+
+.price th, .price td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width: 100px;
+}
+
+.price th {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.price td {
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+/* Style the image gallery */
+.image-gallery{
+
+}
+
+.image-gallery h2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.gallery {
+    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: calc(30% - 20px);
+    margin: 10px;
+    border: 5px solid #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}

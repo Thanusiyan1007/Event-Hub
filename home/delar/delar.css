@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+
+*{
+    text-decoration: none;
+    border: none;
+    margin: none;
+    font-family: 'Lexend', sans-serif;
+}
+
+body{
+    background-color: #19222c;
+}
+
+.container{
+    width: 1820px;
+    height:auto;
+    background-color: #2d3d4f;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 35px;
+    box-shadow: 0 3px 10px rgba(194, 193, 193, 0.2);
+    padding-bottom: 35px;
+
+
+.circular--square { 
+    border-radius: 50%; 
+    width: 160px;
+    height: 160px;
+    padding: 30px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.profiledetails{
+    margin-left: 210px;
+    margin-top: -200px;
+}
+
+.profiledetails input{
+    width: auto;
+    height: 45px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 20px;
+    background-color: none;
+}
+
+.profiledetails input::placeholder{
+    padding: 20px;
+   
+}
+
+.profiletype{
+    margin-left: 110px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.profiletype select{
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.description{
+    margin-left: 145px;
+    margin-top: 35px;
+}
+
+.description textarea{
+    width: 1520px;
+    height: 100px;
+    border-radius: 25px;
+    resize: vertical;
+}
+.description textarea::placeholder{
+    font-size: 17px;
+    padding: 10px;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+/* Styles for the popup content */
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1001;
+    font-size: 20px;
+    padding:30px;
+
+}
+
+.popup-content input{
+    font-size: 20px;
+    border: #19222c solid;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.popup-content button{
+    font-size: 20px;
+    border-radius: 25px;
+    width:160px;
+    height: 35px;
+    margin: 10px;
+    background-color: rgb(8, 8, 95);
+    color: white;
+}
+
+.price{
+    margin-left: 145px;
+    margin-top: 30px;
+    width:1480px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+}
+.price table{
+    margin-left: 250px;
+}
+
+.price h3{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.price table thead th{
+    padding: 0 25px 10px 0;
+    font-size: 17px;
+
+    
+}
+
+.price table tbody td{
+    padding: 0 25px 10px 0;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.price table tbody input::placeholder{
+    font-size: 20px;
+}
+
+.price table tbody input{
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 25px;
+    width: 400px;
+    
+}
+
+.price button{
+    width: 190px;
+    height: 60px;
+    background-color: blue;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 67%
+}
+
+.imageupload-gallary{
+    width:1510px;
+    background-color: white;
+    margin-left: 155px;
+    border-radius: 25px;
+}
+
+.imageupload-gallary table img{
+    width: 370px;
+    height: 370px;
+    padding: 30px;
+    border-radius:25%;
+    cursor: pointer;
+}
+
+.imageupload-gallary table{
+    margin-top: 40px;
+    border-radius: 25px;
+    margin-left: 100px;
+}
+
+.imageupload-gallary table img:hover{
+    transform: scale(1.15);
+}
+
+.imageupload-gallary button{
+    font-size: 20px;
+    border-radius: 25px;
+    width:150px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(8, 8, 95);
+    color: white;
+}
+
+.submit button{
+    font-size: 20px;
+    border-radius: 25px;
+    width:150px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(222, 0, 0);
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 83%;
+}
+}
